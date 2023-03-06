@@ -7,12 +7,12 @@ Yet, preparing for the darker days, the days where ***MACHINES*** would rebel ag
 ## BUILDING THE DATASET
 ### IMAGES
 I took the responsibility of collecting enough data for my supreme goal. With the help for several friends I managed to extend my initial dataset of only 50 pictures by $3$ times ending up with a dataset of 150 pictures. (no worries, I have some data augmentation up my sleeves). Maybe we can check a couple of them: 
-![image info](documents\p+r.jpg)
-![image info](documents\p1.jpg)
-![image info](documents\r1.jpg)
+![image info](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/p%2Br.jpg?raw=true)
+![image info](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/p1.jpg?raw=true)
+![image info](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/r1.jpg?raw=true)
 ### Annotations
 What about annotations now ? Well [Roboflow](https://roboflow.com/) is the best friend of Computer Vision practitioners (and humanity in general...). The latter is making the procedure quite smoother and much more efficient. Here is our data looks now: 
-![](documents\annotated_1.png)
+![annotations](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/annotated_1.png?raw=true)
 
 ### Data Augmentation
 Well as you can see in the picture above, some random noise was added to the image. That's part of the data augmentation operations I used to expand the dataset. At this initial version of the project, I decided to experiment with only two techniques:
@@ -21,7 +21,7 @@ Well as you can see in the picture above, some random noise was added to the ima
 
 ### Dataset's health
 Roboflow performs a health check for the dataset. Hopefully our data does not have any significant issues: 
-![](documents\health.png)
+![](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/health.png?raw=true)
 Sounds pretty good to me !! let's go
 # Building the Detector
 ## Yolov5
@@ -30,7 +30,7 @@ The first model I trained on the custom dataset is the nano-sized Yolov5. The co
 2. importing the yolob5 version of the custom dataset
 3. training and evaluating the model through the scripts provided by Yolov5.
 
-![](documents\testing.png)
+![](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/testing.png?raw=true)
 
 The model performed quite well on the tiny dataset. Certain issues can be resolved with more data (or probably ROBOFLOW PREMIUM ACCOUNT for more augmented data). The details are also considered in the corresponding notebooks.
 
@@ -41,10 +41,9 @@ The first model I trained on the custom dataset is the nano-sized Yolov5. The co
 3. downloading the dataset in the COCO format for easier registration
 4. training and evaluating the model through detectron2 functionalities.
 
-![](documents\rcnn_pred.png)
+![](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/rcnn_pred.png?raw=true)
 
-The model performed quite well in detecting the **PERSON** class. However, the performance was significantly poor for the **ROBOT** class (friendly fire!!!). More details can be found in the corresponding notebooks
-
+Using such a large model pretty much ensured having quite high performance.
 ## Models Comparison
 YOLOV5 (the nano model) VS FASTER RCNN:
 1. Mean Average Precision: 0.47 VS 0.698
