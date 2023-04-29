@@ -12,7 +12,7 @@ I took the responsibility of collecting enough data for my supreme goal. With th
 ![image info](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/r1.jpg?raw=true)
 ### Annotations
 What about annotations now ? Well [Roboflow](https://roboflow.com/) is the best friend of Computer Vision practitioners (and humanity in general...). The latter is making the procedure quite smoother and much more efficient. Here is our data looks now: 
-![annotations](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/annotated_2.png.png?raw=true)
+![annotations](https://github.com/ayhem18/Innopolis-Detector/blob/master/documents/annotated_2.png?raw=true)
 
 ### Data Augmentation
 Well as you can see in the picture above, some random noise was added to the image. That's part of the data augmentation operations I used to expand the dataset. At this initial version of the project, I experimented with 3 augmentation techniques:
