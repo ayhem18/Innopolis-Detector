@@ -1,5 +1,5 @@
 # INNOPOLIS DETECTOR
-Before proceeding further, Feel free to take a look on the main pieces of code through this [collab notebook](https://colab.research.google.com/drive/1UeGYJcAHDQNUi_Ms1rHBRuHfDa5oHMP7?usp=sharing) 
+Before proceeding further, Feel free to take a look on the main pieces of code through this [collab notebook](https://colab.research.google.com/drive/1xIqAx02LaxEd_obU4y1Ncg1kdTS4D3UZ?usp=sharing)
 
 Do you know what is so great about ***Innopolis*** City ? Well, it is not only a singly thing, but Innopolis is this ever-evolving city where humans and robots live in harmony and peace (well technically robots are saving us the trouble of leaving the comfort of our homes in the harsh Russian winter, but that's just a technicality...) 
 
